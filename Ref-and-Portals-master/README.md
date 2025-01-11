@@ -121,10 +121,10 @@ If i use the playerName.current.value instead of state and try to render this in
 
 This is because the playerName is not the connection with the ref prop wont be established for the first render cycle. So we get error... </br>
 
-Instead if we write like this.. 
-![alt text](image-4.png)
-The error goes away. But the changes wont appear in the ui. 
-![alt text](image-5.png)
+Instead if we write like this.. </br>
+![alt text](image-4.png) </br>
+The error goes away. But the changes wont appear in the ui. </br>
+![alt text](image-5.png)</br>
 Just the "unknown entity" goes away. </br>
 This is because when ever a ref changes the component does not rerenders unlike the state. 
 
