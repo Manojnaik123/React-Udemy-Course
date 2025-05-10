@@ -39,7 +39,9 @@ import Object from './index.js'; // default import .
 
 >After downloading and extracting the folder we need to run (npm install) to install all required packages.
 
->After installing use command (npm run dev) to start the project and (control c) to exit the dev env
+>After installing use command (npm run dev) to start the project and (control c) to exit the dev env.
+>
+>> If the project dosent run ans shows error "missing script : dev" then use "npm init" command inside the core folder.
 
 <h1>JSX and React Components </h1>
 
